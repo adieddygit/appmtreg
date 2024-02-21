@@ -1,0 +1,118 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(2, 2, 43);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#app_span{
+  position: relative;
+  top: 60px;
+  font-size: 30px;
+  cursor:pointer; 
+  background-color: #818181;
+  color: rgb(68, 185, 185);
+  margin-left: 60px;
+  }
+
+  #appointments {
+    max-width: 400px;
+    margin: 0;
+    margin-inline: auto;
+    padding: 20px;
+  }
+  
+  #appointments label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #appointments input[type="text"],
+  #appointments input[type="number"],
+  #appointments input[type="date"],
+  #appointments input[type="time"],
+  #appointments textarea,
+  #appointments select {
+    background-color: rgb(180, 204, 204);
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #36a9b1;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+  
+  #appointments input[type="text"]:focus,
+  #appointments input[type="number"]:focus,
+  #appointments input[type="date"]:focus,
+  #appointments input[type="time"]:focus,
+  #appointments textarea:focus,
+  #appointments select:focus {
+    outline: none;
+    box-shadow: 0px 0px 2px 1px rgba(2, 37, 71, 0.75);
+  }
+  
+  .appointment_button {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .appointment_button:hover {
+    background-color: rgb(180, 204, 204);
+    box-shadow: 0px 0px 2px 1px rgba(2, 37, 71, 0.75);
+  }
+  
+  #app_span{
+    position: relative;
+    top: -130px;
+    font-size: 30px;
+    cursor:pointer; 
+    background-color: #818181;
+    color: rgb(68, 185, 185);
+    margin-left: 60px;
+  }
+  
+  span{
+    background-color: #ffffff;
+    color: red;
+  }
+
+  #display-container{
+      color: rgb(27, 107, 112);
+      max-width: 400px;
+      margin: auto 0;
+      margin-top: 30px;
+      margin-left: 20px;
+      padding: 20px;
+      font-size: large;
+      border: #271c1c solid;
+      border-radius: 10px;
+      box-shadow: #271c1c 5px 3px 2px 1px;
+  }
+
